@@ -18,10 +18,6 @@ class Coche(Vehiculo):
         self.velocidad = velocidad
         self.cilindrada = cilindrada 
     
-    def retorno (self):
-        return color
-
-
     
 nuevoCarro = Coche( "rojo", 4, 4, 150, 200)
 
